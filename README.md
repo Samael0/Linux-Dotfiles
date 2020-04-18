@@ -15,6 +15,7 @@
     - nightTab Extension
 - Spotify
     - https://github.com/khanhas/spicetify-cli
+        - Material-Ocean Theme
 - neofetch
 - kitty
 - dunst
