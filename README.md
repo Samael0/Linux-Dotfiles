@@ -1,3 +1,10 @@
+# Apps
+    - Firefox
+    - VScode
+
+# Fonts
+    - Nerd Fonts Complete Package
+
 # Gnome:First
 
 <img src= "Pictures/GNOME:First-Screenshot.png">
@@ -21,3 +28,46 @@
 - dunst
 - oh-my-zsh
     - https://github.com/hohmannr/bubblified
+
+# KDE: Chrome-OS
+
+<img src = "Pictures/KDE:ChromeOS-Screenshot.png">
+
+### Info
+- Global Theme: Qogir-Dark
+    - Install from settings
+
+- Plasma Theme: Chrome-OS
+    - Install from aur
+    
+- Application Style:
+    - GNOME/GTK Application
+        - GTK2 Theme: Breeze
+            - Install from aur
+        - GTK3 Theme: Qogir-dark
+            - Install from aur
+
+- Window Decorations: hello
+    - Install from aur
+    
+- Colors: Qogir-Dark
+    
+- Icons: Tela
+    - Install from aur
+    
+- Cursor: Capitane Cursors White
+    - Install from aur
+
+- Latte Dock
+    - Install from aur
+    
+- Widgets
+    -Latte Spacer
+    - Latte Separator
+    - Event Calendar    
+    - Virtual Desktop Bar
+        - Install from aur
+
+- TO-DO
+    - Terminal
+    - Dolphin
