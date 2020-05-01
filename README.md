@@ -71,3 +71,25 @@
 - TO-DO
     - Terminal
     - Dolphin
+
+# KDE: Sweet
+
+<img src = "Pictures/KDE:SweetScreenshot.png">
+
+### Info
+- Icons: Flatery-Dark
+    - Install from aur
+- Plasma Theme: Sweet
+    - Install from settings
+- Application Style: Kvantum-Dark
+- Window Decorations: Sweet Dark Transparent
+    - Install from settings
+- Colors: Sweet
+    -Install from settings
+- Kwin Scripts:
+    - Force Blur
+- Window Rules:
+    - Transparent
+    - Transparent Exceptions
+- Widgets
+    - Global Menu Panel
