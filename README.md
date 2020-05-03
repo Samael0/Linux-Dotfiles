@@ -1,6 +1,7 @@
 # Apps
     - Firefox
     - VScode
+    - Neofetch
 
 # Fonts
     - Nerd Fonts Complete Package
@@ -93,3 +94,31 @@
     - Transparent Exceptions
 - Widgets
     - Global Menu Panel
+
+# KDE: Aritim-Dark
+
+<img src = "Pictures/KDE:AritimDarkScreenshot.png">
+
+### Info
+- Global Theme
+    - Aritim-Dark
+    - System Settings
+- Color Scheme
+    - Aritim-Dark
+    - System Settings
+- Konsole Color Scheme
+    - Material Ocean
+    - Dotfiles
+- Spicetify
+    - Night
+    - Dotfiles
+- Window Decorations
+    - Sierra Breeze
+    - Turn off title bar seperator in theme setting
+    - Aur
+- Icons
+    - Flat Remix
+- ToDo
+    - Work on latte dock
+    - Top Panel
+    - Dolphin Customization
