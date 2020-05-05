@@ -2,9 +2,12 @@
     - Firefox
     - VScode
     - Neofetch
+    - Konsole
+    - Kitty
 
 # Fonts
     - Nerd Fonts Complete Package
+    - San Francisco Pro
 
 # Gnome:First
 
@@ -122,3 +125,31 @@
     - Work on latte dock
     - Top Panel
     - Dolphin Customization
+
+# KDE: Dracula
+
+<img src = "Pictures/KDE:DraculaScreenshot.jpg">
+
+# Installation
+1. Install [hello decoration](https://github.com/n4n0GH/hello)
+
+    Buttons color scheme: 
+    - close: `#ff5555`
+    - minimize: `#f1fa8c`
+    - maximize: `#50fa7b`
+
+    Settings:
+    - Turn off titlebar gradient
+
+2. Install Yet-another-dracula theme
+    ```bash
+    $ git clone https://github.com/nopain2110/Yet-another-dracula.git
+    ``` 
+    - Copy `color-schemes` to `~/.local/share/color-schemes` and activate by go to `Settings → Colors → Yet-another-dracula`
+    - Copy `Kvantum` to `~/.config/Kvantum` and activate by go to `Settings → Application Style → kvantum`, open Kvantum Manager and select `Yet-another-dracula`
+    - Copy `plasma` to `~/.local/share/plasma` and activate by go to `Settings → Plasma Style → Yet-another-dracula`
+    - Copy `sddm` to `~/.local/share/sddm` and activate by go to `Settings → Startup and Shutdown → Login Screen (SDDM) → Dracula`
+
+3. Others
+    - Install vinceliuice's [Tela icon theme](https://github.com/vinceliuice/Tela-icon-theme) with purple dark variant and patch colors with my script [dracula-tela-icon-patch.sh](https://github.com/nopain2110/Yet-another-dracula/blob/master/Yet-another-dracula/dracula-tela-icon-patch.sh) for a more consistent and beautiful experience.
+    - Icons: SF Pro
