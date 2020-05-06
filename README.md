@@ -130,7 +130,7 @@
 
 <img src = "Pictures/KDE:DraculaScreenshot.jpg">
 
-# Installation
+## Installation
 1. Install [hello decoration](https://github.com/n4n0GH/hello)
 
     Buttons color scheme: 
@@ -153,3 +153,18 @@
 3. Others
     - Install vinceliuice's [Tela icon theme](https://github.com/vinceliuice/Tela-icon-theme) with purple dark variant and patch colors with my script [dracula-tela-icon-patch.sh](https://github.com/nopain2110/Yet-another-dracula/blob/master/Yet-another-dracula/dracula-tela-icon-patch.sh) for a more consistent and beautiful experience.
     - Icons: SF Pro
+
+# KDE:Moe
+
+<img src = "Pictures/KDE:MoeScreenshot.png">
+
+- Plasma Theme: Moe-Dark
+- Application Style: Kvantum - MoeDark
+- GTK
+    - GTK2: Breeze Dark
+    - GTK3: Breeze Dark
+- Window Decorations: [Sierra Breeze](https://github.com/jomada/SierraBreeze)
+    - Turn off seperator title bar
+    - Window specefic dolphin no borders
+- Colors: Moe Dark
+- Icons: McMuse-Circle-Red
