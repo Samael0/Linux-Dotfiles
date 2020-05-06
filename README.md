@@ -167,3 +167,10 @@
     - Window specefic dolphin no borders
 - Colors: Moe Dark
 - Icons: McMuse-Circle-Red
+- Latte Dock (git)
+    - Virtual Desktop Bar
+    - Latte SideBar Button
+    - Window Title Applet
+    - Latte Separator
+    - Chili Clock
+    - Window Buttons Applet
