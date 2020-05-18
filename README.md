@@ -208,3 +208,10 @@
     - https://addons.mozilla.org/en-US/firefox/addon/noaccos-nord/
 - Discord
     - https://gist.github.com/dhilln/f74098c730659cd7d9fd4e4e15f5b8cd
+
+# Awesome:Sky
+
+<img src = "Pictures/AwesomeWM:SkyScreenshot.png">
+
+- Reference
+    - https://github.com/sdhand/dotfiles
