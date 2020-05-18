@@ -192,3 +192,10 @@
 
 - Reference
     - https://github.com/arndtphillip/dotfiles
+
+# Awesome:Nord
+
+<img src = "Pictures/AwesomeWM:NordScreenshot.png">
+
+- Reference
+    - https://gitlab.com/noaccOS/dotfiles
