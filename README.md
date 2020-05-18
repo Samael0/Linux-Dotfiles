@@ -199,3 +199,12 @@
 
 - Reference
     - https://gitlab.com/noaccOS/dotfiles
+
+- GTK Theme
+    - https://github.com/EliverLara/Nordic
+- Firefox CSS
+    - https://github.com/ralphSQ/Nord-minimal-functional-fox
+- Firefox Theme
+    - https://addons.mozilla.org/en-US/firefox/addon/noaccos-nord/
+- Discord
+    - https://gist.github.com/dhilln/f74098c730659cd7d9fd4e4e15f5b8cd
