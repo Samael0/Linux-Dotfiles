@@ -13,6 +13,8 @@
 # Fonts
     - Nerd Fonts Complete Package
     - San Francisco Pro
+    - Roboto
+    - Fira Mono
 
 # Gnome:First
 
@@ -35,6 +37,9 @@
 # KDE: Chrome-OS
 
 <img src = "Pictures/KDE:ChromeOS-Screenshot.png">
+
+- Reference
+    - https://github.com/nopain2110/Chrome-OS-kde
 
 ### Info
 - Global Theme: Qogir-Dark
@@ -101,6 +106,9 @@
 
 <img src = "Pictures/KDE:AritimDarkScreenshot.png">
 
+- Reference
+    - https://github.com/muditjoshi98/dotfiles
+
 ### Info
 - Global Theme
     - Aritim-Dark
@@ -128,6 +136,9 @@
 # KDE: Dracula
 
 <img src = "Pictures/KDE:DraculaScreenshot.jpg">
+
+- Reference
+    - https://github.com/nopain2110/Yet-another-dracula
 
 ## Installation
 1. Install [hello decoration](https://github.com/n4n0GH/hello)
@@ -174,3 +185,10 @@
     - Latte Separator
     - Chili Clock
     - Window Buttons Applet
+
+# Awesome:Horizon
+
+<img src = "Pictures/Awesome:HorizonScreenshot.png">
+
+- Reference
+    - https://github.com/arndtphillip/dotfiles
