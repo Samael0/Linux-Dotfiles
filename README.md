@@ -14,3 +14,7 @@
     - San Francisco Pro
     - Roboto
     - Fira Mono
+
+# Make NVIDIA Settings Persistent
+1. Copy settings preview from nvidia-settings
+2. Paste into `/etc/X11/mhwd.d/nvidia.conf`
