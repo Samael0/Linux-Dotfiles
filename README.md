@@ -3,6 +3,9 @@
     - VScode
     - Neofetch
     - Kitty
+    - Ranger
+    - CAVA
+    - Spotify
 
 # Firefox
 - https://github.com/mut-ex/minimal-functional-fox
@@ -11,9 +14,19 @@
 
 # Fonts
     - Nerd Fonts Complete Package
+    - Font Awesome 5
     - San Francisco Pro
+    - SF Mono
     - Roboto
     - Fira Mono
+    - Fira Code
+    - JetBrains Mono
+    - Hack
+    - Source Code Pro
+    - Iosevka
+    - Inconsolata
+    - DejaVu Sans Mono
+    - Open Sans
 
 # Make NVIDIA Settings Persistent
 1. Copy settings preview from nvidia-settings
