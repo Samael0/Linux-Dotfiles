@@ -11,6 +11,7 @@
 - https://github.com/mut-ex/minimal-functional-fox
 - https://github.com/Brettm12345/github-moonlight
 - nightTab Extension
+- [Github Moonlight](https://github.com/Brettm12345/github-moonlight)
 
 # Fonts
     - Nerd Fonts Complete Package
@@ -31,3 +32,19 @@
 # Make NVIDIA Settings Persistent
 1. Copy settings preview from nvidia-settings
 2. Paste into `/etc/X11/mhwd.d/nvidia.conf`
+
+# Spicetify
+
+- Check under stars repositories
+
+# VScode Themes
+
+1. Sweet
+    - [Color Theme](https://github.com/EliverLara/sweet-vscode)
+    - [Icon Theme](https://github.com/EliverLara/sweet-vscode-icons)
+    - Font 
+        - Operator Mono
+2. 
+
+# ZSH Theme
+- (Bubblified)[https://github.com/hohmannr/bubblified]
