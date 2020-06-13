@@ -29,10 +29,6 @@
     - DejaVu Sans Mono
     - Open Sans
 
-# Make NVIDIA Settings Persistent
-1. Copy settings preview from nvidia-settings
-2. Paste into `/etc/X11/mhwd.d/nvidia.conf`
-
 # Spicetify
 
 - Check under stars repositories
@@ -48,3 +44,7 @@
 
 # ZSH Theme
 - (Bubblified)[https://github.com/hohmannr/bubblified]
+
+# Hide Apps From Rofi
+- Edit `usr/share/applications`
+- Add 'NoDisplay=true'
