@@ -1,11 +1,11 @@
 # Apps
     - Firefox
     - VScode
-    - Neofetch
-    - Kitty
-    - Ranger
-    - CAVA
-    - Spotify
+    - Spotify (Spicetify)
+    - Discord
+    - Rofi
+    - lxappearance
+    - pavucontrol
 
 # Firefox
 - [Firefox Theme](https://github.com/mut-ex/minimal-functional-fox)
@@ -38,3 +38,19 @@
 # Hide Apps From Rofi
 - Edit `usr/share/applications`
 - Add `NoDisplay=true`
+
+# Display Manager Themes
+- [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
+
+# Dependencies
+- feh
+- xsetroot
+- pulseaudio
+- picom ibhagwan
+
+# TUI
+- neofetch
+- cava
+- ranger
+- vim
+- canvas-tui
