@@ -20,6 +20,7 @@
 
 foreground = ${xrdb:foreground:#fff}
 ;foreground = ${xrdb:background:#000}
+
 background = ${xrdb:background:#000}
 ;background = ${xrdb:foreground:#000}
 
@@ -50,6 +51,7 @@ font-4=IPAGothic:size=11;2
 font-5=Roboto:pixelsize=12:antialias=true;1
 font-6=Font Awesome 5 Free Regular:size=12;3
 font-7=Font Awesome 5 Free Solid:size=12;3
+font-8="FiraMono Nerd Font Mono:size=12;2"
 
 wm-restack = bspwm
 
@@ -155,7 +157,7 @@ type = internal/date
 interval = 10
 format-margin = 2
 
-time = "%H:%M"
+time = "%I:%M"
 date = "%d %b"
 
 label = %time% | %date%

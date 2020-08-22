@@ -1,7 +1,8 @@
 #! /bin/sh
 
 sxhkd &
-~/.fehbg
+~/.fehbg &
+xsetroot -cursor_name left_ptr &
 picom --config ~/.config/picom.conf &
 $HOME/.config/polybar/launch.sh &
 
