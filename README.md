@@ -3,18 +3,15 @@
 - VScode
 - Spotify (Spicetify)
 - Discord
-- Rofi
-- lxappearance
 - pavucontrol
 
 # Dependencies
-- feh
-- xsetroot
 - pulseaudio
-- picom ibhagwan
-- polybar
-- playerctl
 - zsh
+- xorg
+- nvidia
+- nvidia-settings
+- git
 
 # TUI
 - neofetch
@@ -22,6 +19,9 @@
 - ranger
 - vim
 - canvas-tui
+
+# Display Manager Themes
+- [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
 
 # Firefox
 - [Firefox Theme](https://github.com/mut-ex/minimal-functional-fox)
@@ -33,11 +33,10 @@
 # Fonts
 - Nerd Font Complete
 - Font Awesome
-- Takao
 
 # Hide Apps From Rofi
 - Edit `usr/share/applications`
 - Add `NoDisplay=true`
 
-# Display Manager Themes
-- [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
+# Color for yay
+- Uncomment `color` in `etc/pacman.conf`
