@@ -1,42 +1,9 @@
-# Apps
-- Firefox
-- VScode
-- Spotify (Spicetify)
-- Discord
-- pavucontrol
+# Install Start Pages
+1. Make folder `~/.mozilla/firefox/DEFAULTRELEASEFOLDER/StartPages`
+2. Copy start page folders here
+3. Point to start page `index.html` on firefox settings to home page
 
-# Dependencies
-- pulseaudio
-- zsh
-- xorg
-- nvidia
-- nvidia-settings
-- git
-
-# TUI
-- neofetch
-- cava
-- ranger
-- vim
-- canvas-tui
-
-# Display Manager Themes
-- [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
-
-# Firefox
-- [Firefox Theme](https://github.com/mut-ex/minimal-functional-fox)
-- [Github Moonlight](https://github.com/Brettm12345/github-moonlight)
-
-# ZSH Theme
-- [Bubblified](https://github.com/hohmannr/bubblified)
-
-# Fonts
-- Nerd Font Complete
-- Font Awesome
-
-# Hide Apps From Rofi
-- Edit `usr/share/applications`
-- Add `NoDisplay=true`
-
-# Color for yay
-- Uncomment `color` in `etc/pacman.conf`
+# Force New Tab To Show Start Page
+1. Copy `autoconfig.js` to `/usr/lib/firefox/defaults/pref`
+2. Copy `autoconfig.cfg` to `/usr/lib/firefox`
+3. Edit `autoconfig.cfg` to change start page
