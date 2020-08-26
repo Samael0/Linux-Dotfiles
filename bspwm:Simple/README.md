@@ -1,3 +1,3 @@
 # bspwm: Simple
 
-<img src = "Pictures/bspwm:SimpleScreenshot.png">
+<img src = "../Pictures/bspwm:SimpleScreenshot.png">

@@ -1,6 +1,6 @@
 # bspwm: Nord
 
-<img src = "Pictures/bspwm:NordScreenshot.png">
+<img src = "../Pictures/bspwm:NordScreenshot.png">
 
 - GTK Theme
     - [Nordic](https://github.com/EliverLara/Nordic)

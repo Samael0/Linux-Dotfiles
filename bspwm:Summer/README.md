@@ -1,6 +1,6 @@
 # bpswm: Summer
 
-<img src = "Pictures/bspwm:SummerScreenshot.png">
+<img src = "../Pictures/bspwm:SummerScreenshot.png">
 
 1. VSCode Theme
     - Academy City

@@ -1,3 +1,3 @@
 # bspwm: Spaceman
 
-<img src = "Pictures/bspwm:SpacemanScreenshot.png">
+<img src = "../Pictures/bspwm:SpacemanScreenshot.png">
