@@ -20,14 +20,13 @@ SINK_ICON=""  # The default sink icon if a custom one isn't found
 # the names of your active sinks, use `pactl list sinks short`.
 SINK_BLACKLIST=(
     "alsa_output.usb-SinkYouDontUse-00.analog-stereo"
-    "alsa_output.pci-0000_00_1f.3.iec958-stereo"
 
 )
 
 # Maps PulseAudio sink names to human-readable names
 declare -A SINK_NICKNAMES
+SINK_NICKNAMES["alsa_output.pci-0000_00_1f.3.analog-stereo"]=" Headphones"
 SINK_NICKNAMES["alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2"]="蓼 Speakers"
-
 
 # Environment & global constants for the script
 LANGUAGE=en_US  # Some calls depend on English outputs of pactl
