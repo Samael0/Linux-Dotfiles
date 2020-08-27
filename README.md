@@ -4,6 +4,7 @@
 - Spotify (Spicetify)
 - Discord
 - pavucontrol
+- Files (Nautilus)
 
 # Dependencies
 - pulseaudio
