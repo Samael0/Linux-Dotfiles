@@ -21,6 +21,21 @@
 - vim
 - canvas-tui
 
+# Visual Studio Code Extensions
+- Desaturated Theme
+- Horizon Theme
+- Material Icon Theme
+```
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Desaturated",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": "JetBrainsMono Nerd Font",
+    "editor.fontWeight": "800",
+    "editor.fontSize": 13
+}
+```
+
 # Display Manager Themes
 - [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
 
