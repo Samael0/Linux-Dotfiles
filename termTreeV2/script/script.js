@@ -3,34 +3,30 @@ const Config = {
     scale: 1,
     Links: [
         [
-            "site",
+            "School",
             [
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"]
+                ["Canvas", "https://canvas.csun.edu"]
             ]
         ],
         [
-            "site",
+            "Notes",
             [
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"]
+                ["Personal Keep", "https://keep.google.com/u/0/#home"],
+                ["School Keep", "https://keep.google.com/u/1/"]
             ]
         ],
         [
-            "site",
+            "Dev",
             [
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"]
+                ["Github", "http://github.com/"]
             ]
         ],
         [
-            "site",
+            "Other",
             [
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"],
-                ["link", "https://www.example.com"]
+                ["YouTube", "https://youtube.com"],
+                ["Reddit", "https://reddit.com"],
+                ["Gmail", "https://gmail.com"]
             ]
         ]
     ]
