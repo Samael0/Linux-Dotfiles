@@ -19,6 +19,7 @@
 - cava
 - ranger
 - vim
+- neovim
 - canvas-tui
 
 # Visual Studio Code Extensions
