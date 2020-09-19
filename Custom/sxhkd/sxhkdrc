@@ -7,6 +7,14 @@ super + Escape
 
 # ] -----  BIND APPS  ----- [
 
+# description: power menu
+super + p
+	rofi -show power-menu -modi power-menu:~/.config/rofi/menus/rofi-power-menu
+
+# description: program launcher
+super + d
+	rofi -show drun -show-icons -disable-history
+
 # description: kitty
 super + Return
 	kitty
