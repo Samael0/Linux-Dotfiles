@@ -21,7 +21,7 @@ bspc rule -a Nightly desktop='^2' follow=on
 bspc rule -a mpv desktop='^5' state=fullscreen follow=on
 bspc rule -a feh state=floating follow=on
 
-$HOME/.config/polybar/launch.sh &
+
 ~/.fehbg &
 xsetroot -cursor_name left_ptr &
 picom --config ~/.config/picom.conf &
