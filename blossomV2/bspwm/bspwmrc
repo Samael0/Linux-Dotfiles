@@ -1,0 +1,32 @@
+#! /bin/sh
+
+sxhkd &
+feh --bg-fill ~/Pictures/Wallpapers/DarkForest.*
+xsetroot -cursor_name left_ptr &
+picom --config ~/.config/picom.conf &
+$HOME/.config/polybar/launch.sh &
+
+bspc monitor DP-0 -d web code files media extra
+
+focused=$(xrdb ~/.config/X11/xresources -query all | grep foreground | cut -f2)
+normal=$(xrdb ~/.config/X11/xresources -query all | grep color8 | cut -f2)
+
+# Colors
+bspc config focused_border_color	"$focused"
+bspc config normal_border_color		"$normal"
+
+# Border and Gap
+bspc config border_width		    3
+bspc config window_gap 			    6
+
+# Mouse
+bspc config focus_follows_pointer	true
+
+# Config
+bspc config top_padding             40
+bspc config split_ratio			    0.52
+
+# Monocle Settings
+bspc config borderless_monocle		true
+bspc config gapless_monocle		    false
+bspc config single_monocle		    true
