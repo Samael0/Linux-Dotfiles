@@ -6,5 +6,4 @@
 - polybar
 - kitty
 - rofi
-- playerctl
 - lxappearance
