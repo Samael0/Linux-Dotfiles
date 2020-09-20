@@ -13,6 +13,7 @@
 - nvidia
 - nvidia-settings
 - git
+- lxappearance
 
 # TUI
 - neofetch
