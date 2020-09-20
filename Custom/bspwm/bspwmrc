@@ -1,6 +1,5 @@
 #! /bin/sh
 
-$HOME/.config/bspwm/autostart &
 sxhkd &
 ~/.fehbg &
 xsetroot -cursor_name left_ptr &

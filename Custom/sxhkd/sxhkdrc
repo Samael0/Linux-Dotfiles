@@ -15,6 +15,10 @@ super + p
 super + d
 	rofi -show drun -show-icons -disable-history
 
+# description: keybind menu
+super + k
+	~/.config/rofi/scripts/keybinds.sh
+
 # description: kitty
 super + Return
 	kitty
