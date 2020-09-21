@@ -1,0 +1,16 @@
+#! /bin/sh
+
+sxhkd &
+~/.fehbg &
+xsetroot -cursor_name left_ptr &
+picom --config ~/.config/picom.conf &
+$HOME/.config/polybar/launch.sh &
+
+bspc monitor DP-0 -d 1 2 3 4 5
+
+bspc config border_width         0
+bspc config window_gap          40
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true

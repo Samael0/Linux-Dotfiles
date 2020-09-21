@@ -1,0 +1,64 @@
+# ] -----  RELOAD SXHKD  ----- [
+
+# description: make sxhkd reload its configuration files
+super + Escape
+	pkill -USR1 -x sxhkd
+
+
+# ] -----  BIND APPS  ----- [
+
+# description: power menu
+super + p
+	rofi -show power-menu -modi power-menu:~/.config/rofi/menus/rofi-power-menu
+
+# description: program launcher
+super + d
+	rofi -show drun -show-icons -disable-history
+
+# description: kitty
+super + Return
+	kitty
+
+# description: firefox
+super + f
+	firefox
+
+
+#  ] -----  BSPWM HOTKEYS  ----- [
+
+
+# description: quit/restart bspwm
+super + alt + {q,r}
+	bspc {quit,wm -r}
+
+# description: close and kill
+super + {_,shift + }w
+	bspc node -{c,k}
+
+
+#  ] -----  STATE / FLAGS  ----- [
+
+
+# description: set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+
+#  ] -----  FOCUS / SWAP  ----- [
+
+
+# description: focus the node in the given direction
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+# description: focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# description: focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# description: focus or send to the given desktop
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-5}'
