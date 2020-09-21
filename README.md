@@ -40,6 +40,10 @@
 ```
 # Grub Themes
 - [Matter](https://github.com/mateosss/matter)
+    - ~~~
+        ./matter.py -i arch cog _ _ microsoft-windows \-hl 118ab2 -fg ffd166 -bg 073b4c \
+        -ff ~/matter/fonts/Lobster-Regular.ttf \ -fn Lobster Regular -fs 32
+      ~~~
 
 # Display Manager Themes
 - [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
