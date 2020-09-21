@@ -38,6 +38,8 @@
     "editor.fontSize": 13
 }
 ```
+# Grub Themes
+- [Matter](https://github.com/mateosss/matter)
 
 # Display Manager Themes
 - [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
