@@ -5,6 +5,7 @@
 - Discord
 - pavucontrol
 - Files (Nautilus)
+- lxappearance
 
 # Dependencies
 - pulseaudio
@@ -13,7 +14,7 @@
 - nvidia
 - nvidia-settings
 - git
-- lxappearance
+- playerctl
 
 # TUI
 - neofetch
