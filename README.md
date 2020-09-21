@@ -7,3 +7,6 @@
 - kitty
 - rofi
 - lxappearance
+
+# GTK Themes
+- Plata
