@@ -26,6 +26,7 @@ const Config = {
             [
                 ["YouTube", "https://youtube.com"],
                 ["Reddit", "https://reddit.com"],
+                ["Arch", "https://www.archlinux.org/"],
                 ["Gmail", "https://gmail.com"]
             ]
         ]
