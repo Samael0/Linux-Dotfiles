@@ -15,10 +15,6 @@ super + p
 super + d
 	rofi -show drun -show-icons -disable-history
 
-# description: keybind menu
-super + k
-	~/.config/rofi/scripts/keybinds.sh
-
 # description: kitty
 super + Return
 	kitty
@@ -66,3 +62,32 @@ super + {grave,Tab}
 # description: focus or send to the given desktop
 super + {_,shift + }{1-8}
 	bspc {desktop -f,node -d} '^{1-5}'
+
+
+#  ] -----  MEDIA HOTKEYS  ----- [
+
+
+# description: Play/Pause Media
+XF86AudioPlay
+	playerctl play-pause
+
+# description: Previous Track
+XF86AudioPrev
+	playerctl previous
+
+# description: Next Track
+XF86AudioNext
+	playerctl next
+
+# description: Mute Volume
+XF86AudioMute
+	pactl set-sink-mute 1 toggle; pactl set-sink-mute 2 toggle
+
+# description: Lower Volume
+XF86AudioLowerVolume
+	sh -c "pactl set-sink-mute 1 false ; pactl set-sink-volume 1 -5%"; sh -c "pactl set-sink-mute 1 false ; pactl set-sink-volume 2 -5%"
+
+# description: Raise Volume
+XF86AudioRaiseVolume
+	sh -c "pactl set-sink-mute 1 false ; pactl set-sink-volume 1 +5%"; sh -c "pactl set-sink-mute 2 false ; pactl set-sink-volume 2 +5%"
+	
