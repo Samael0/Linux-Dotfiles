@@ -3,13 +3,11 @@
 sxhkd &
 ~/.fehbg &
 xsetroot -cursor_name left_ptr &
-#xrandr --output DP-1 --primary --mode 2560x1440 --rate 144.0 --pos 0x560 --output DP-2 --mode 2560x1440 --rate 144.0 --rotate right --pos 2560x0 &
 picom --config ~/.config/picom.conf &
 $HOME/.config/polybar/launch.sh &
 
-bspc monitor DP-2 -d Web Term Discord Spotify
+bspc monitor DP-2 -d Web Files Discord Spotify
 bspc monitor DP-0 -d Code Term
-#bspc monitor DP-0 -d 1 2 3 4 5
 
 bspc config border_width         0
 bspc config window_gap          40
@@ -21,3 +19,6 @@ bspc config gapless_monocle      true
 bspc rule -a discord desktop=Discord state=tiled follow=on
 bspc rule -a Code desktop=Code state=tiled follow=on
 bspc rule -a Spotify desktop=Spotify follow=on
+bspc rule -a firefox desktop=Web follow=on
+bspc rule -a kitty desktop=Term follow=on
+bspc rule -a nautilus desktop=Files follow=on
