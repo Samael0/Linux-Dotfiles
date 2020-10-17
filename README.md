@@ -21,8 +21,6 @@
 - cava
 - ranger
 - vim
-- neovim
-- canvas-tui
 
 # Visual Studio Code Extensions
 - Desaturated Theme
@@ -40,7 +38,6 @@
 ```
 
 # Display Manager Themes
-- [SDDM Delicious](https://github.com/stuomas/delicious-sddm-theme)
 
 # Firefox
 - [Firefox Theme](https://github.com/mut-ex/minimal-functional-fox)
